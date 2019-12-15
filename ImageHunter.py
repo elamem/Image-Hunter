@@ -95,7 +95,7 @@ def scrap():
         log.insert(tk.END, "Please, select destination folder and give correct url.", "a")
         log.see(tk.END)
     else:
-        x = threading.Thread(target=downloadSetup, args=(url),daemon=True)
+        x = threading.Thread(target=downloadSetup, args=(url,),daemon=True)
         x.start()
         
     
