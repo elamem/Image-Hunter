@@ -8,5 +8,5 @@ Image Hunter program helps to download all images in the given url.
 
 
 # SCREENSHOTS
-![python output](screenshots/1.png)
+![python output](Screenshots/1.png)
 
